@@ -1,0 +1,7 @@
+# Serving media files
+Alias /media/ /home/apensof1/api/media/
+
+<Directory /home/apensof1/api/media>
+    Require all granted
+    Options -Indexes
+</Directory>
